@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+
+    color: white;
+    font-family:Courier;
+}
+
+h1 {
+    color:white;
+    font-family:Courier;
+    font-size:1.5em;
+}
+
+h2 {
+    color:white;
+    font-family:Courier;
+    font-size:0.9em;
+}
+
+p {
+    color:white;
+    font-family:Courier;
+    font-size:1.2em;
+}
+
+textarea {
+    background-color:black;
+    color:white;
+
+    width:95%;
+    height:400px;
+}
+
+button {
+    background-color:black;
+    border-color:white;
+
+    color:white;
+    font-size:1em;
+    font-family:Courier;
+}
+
+button:hover {
+    background-color:darkgrey;
+}
+
+button:active {
+    background-color:white;
+}

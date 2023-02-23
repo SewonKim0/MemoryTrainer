@@ -1,0 +1,53 @@
+#doc {
+    width:95%;
+    height:400px;
+}
+
+#start-button {
+    margin-bottom:3%;
+}
+
+#done-button {
+    margin-bottom:3%;
+}
+
+#lines {
+    display:flex;
+    flex-direction:column;
+    width:95%;
+    height:400px;
+
+    border: 1px solid white;
+}
+
+.line {
+    text-align:left;
+    color:lime;
+    background-color:black;
+
+    border: 0px solid black;
+}
+
+.line:hover {
+    background-color:darkgreen;
+}
+
+.line:active {
+    background-color:green;
+}
+
+.unresolved {
+    text-align:left;
+    color:red;
+    background-color:black;
+
+    border: 0px solid black;
+}
+
+.unresolved:hover {
+    background-color:rgb(78, 0, 0);
+}
+
+.unresolved:active {
+    background-color:rgb(150, 0, 0);
+}

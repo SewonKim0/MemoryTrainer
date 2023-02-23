@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Memory Trainer </title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/specific.css">
+    </head>
+
+    <body>
+        <div id="step1">
+            <h1> Paste Your Notes Here: </h1>
+
+            <button id="start-button">Start Memorization Session</button>
+
+            <textarea id="doc"></textarea>
+        </div>
+
+        <div id="step2" hidden>
+            <h2> Only the first words are shown. Select the lines you cannot remember. </h2>
+            
+            <button id="done-button">Done</button>
+
+            <div id="lines"></div>
+        </div>
+
+        <div id="step3" hidden>
+            <h2> Congratulations. You have passed the memory test. </h2>
+            <h2> Please run this test twice with your notes on separate days. </h2>
+        </div>
+
+        <script src="program.js"></script>
+    </body>
+</html>
